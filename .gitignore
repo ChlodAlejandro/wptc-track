@@ -1,13 +1,24 @@
+# Output files
+bin
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Generated tracks
 output.png
-track
+
+# IDEs
+.vscode
+
+# Data
 data/*/btk/*.dat
 data/*.dat
-.vscode
-tracks/*.o
-tracks/.deps
-tracks/autom4te.cache
-tracks/config.log
-tracks/config.status
-tracks/config.h
-tracks/stamp-h1
-Makefile
